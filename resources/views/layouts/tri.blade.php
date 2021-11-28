@@ -5,26 +5,27 @@
 
 @section('content')
 
-    <div class="tri-layout-mobile-tabs print-hidden">
-        <div class="grid half no-break no-gap">
-            <button type="button"
-                    refs="tri-layout@tab"
-                    data-tab="info"
-                    aria-label="{{ trans('common.tab_info_label') }}"
-                    class="tri-layout-mobile-tab px-m py-m text-primary">
-                {{ trans('common.tab_info') }}
-            </button>
-            <button type="button"
-                    refs="tri-layout@tab"
-                    data-tab="content"
-                    aria-label="{{ trans('common.tab_content_label') }}"
-                    aria-selected="true"
-                    class="tri-layout-mobile-tab px-m py-m text-primary active">
-                {{ trans('common.tab_content') }}
-            </button>
+    @if(user()->isAdmin())
+        <div class="tri-layout-mobile-tabs print-hidden">
+            <div class="grid half no-break no-gap">
+                <button type="button"
+                        refs="tri-layout@tab"
+                        data-tab="info"
+                        aria-label="{{ trans('common.tab_info_label') }}"
+                        class="tri-layout-mobile-tab px-m py-m text-primary">
+                    {{ trans('common.tab_info') }}
+                </button>
+                <button type="button"
+                        refs="tri-layout@tab"
+                        data-tab="content"
+                        aria-label="{{ trans('common.tab_content_label') }}"
+                        aria-selected="true"
+                        class="tri-layout-mobile-tab px-m py-m text-primary active">
+                    {{ trans('common.tab_content') }}
+                </button>
+            </div>
         </div>
-    </div>
-
+    @endif
     <div refs="tri-layout@container" class="tri-layout-container" @yield('container-attrs') >
 
         <div class="tri-layout-left print-hidden pt-m" id="sidebar">
