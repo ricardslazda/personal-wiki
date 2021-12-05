@@ -26,6 +26,9 @@ header {
   @include whenDark {
     filter: saturate(0.8) brightness(0.8);
   }
+  .header-div {
+    height: 60px;
+  }
   .links {
     display: inline-block;
     vertical-align: top;
