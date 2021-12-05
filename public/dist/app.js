@@ -41828,14 +41828,6 @@
       this.lastLayoutType = newLayout;
     }
     setupMobile() {
-      for (const tab of this.tabs) {
-        tab.addEventListener("click", this.mobileTabClick);
-      }
-      this.onDestroy = () => {
-        for (const tab of this.tabs) {
-          tab.removeEventListener("click", this.mobileTabClick);
-        }
-      };
     }
     setupDesktop() {
     }

@@ -4602,6 +4602,9 @@ html.dark-mode header {
 html.dark-mode header {
   filter: saturate(0.8) brightness(0.8);
 }
+header .header-div {
+  height: 60px;
+}
 header .links {
   display: inline-block;
   vertical-align: top;

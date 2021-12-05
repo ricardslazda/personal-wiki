@@ -1,6 +1,5 @@
 <header id="header" component="header-mobile-toggle" class="primary-background">
-    <div class="grid mx-l">
-
+    <div class="grid mx-l header-div">
         <div>
             <a href="{{ url('/') }}" class="logo">
                 @if(setting('app-logo', '') !== 'none')
@@ -59,7 +58,6 @@
                             <a href="{{ url('/login')  }}">@icon('login'){{ trans('auth.log_in') }}</a>
                         @endif
                     @else
-                        <a href="">@include('common.dark-mode-toggle', ['classes' => 'text-white'])</a>
                         <a href="{{ url('/books') }}">@icon('books'){{ trans('entities.topics') }}</a>
                     @endif
                 </div>

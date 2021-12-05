@@ -3,7 +3,8 @@
       dir="{{ config('app.rtl') ? 'rtl' : 'ltr' }}"
       class="{{ setting()->getForCurrentUser('dark-mode-enabled') ? 'dark-mode ' : '' }}@yield('body-class')">
 <head>
-    <title>{{ isset($pageTitle) ? $pageTitle . ' | ' : '' }}{{ setting('app-name') }}</title>
+    <title>Lazda's Personal Knowledge Base</title>
+    <link rel="icon" href="{{ url('/logo.png') }}">
 
     <!-- Meta -->
     <meta name="viewport" content="width=device-width">
