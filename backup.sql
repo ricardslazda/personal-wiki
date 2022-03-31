@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Mar 22, 2022 at 08:48 PM
+-- Generation Time: Mar 31, 2022 at 01:30 PM
 -- Server version: 10.5.12-MariaDB-cll-lve
 -- PHP Version: 7.2.34
 
@@ -536,7 +536,40 @@ INSERT INTO `activities` (`id`, `type`, `detail`, `user_id`, `ip`, `entity_id`, 
 (489, 'page_delete', '', 1, '77.219.2.132', 67, 'BookStack\\Page', '2022-03-22 20:03:07', '2022-03-22 20:03:07'),
 (490, 'page_delete', '', 1, '77.219.2.132', 64, 'BookStack\\Page', '2022-03-22 20:03:10', '2022-03-22 20:03:10'),
 (491, 'page_create', '', 1, '77.219.2.132', 68, 'BookStack\\Page', '2022-03-22 20:03:45', '2022-03-22 20:03:45'),
-(492, 'page_update', '', 1, '77.219.2.132', 26, 'BookStack\\Page', '2022-03-22 20:46:34', '2022-03-22 20:46:34');
+(492, 'page_update', '', 1, '77.219.2.132', 26, 'BookStack\\Page', '2022-03-22 20:46:34', '2022-03-22 20:46:34'),
+(493, 'auth_login', 'standard; (1) Admin', 1, '90.131.153.247', NULL, NULL, '2022-03-31 08:55:34', '2022-03-31 08:55:34'),
+(494, 'auth_login', 'standard; (1) Admin', 1, '90.131.153.247', NULL, NULL, '2022-03-31 09:08:05', '2022-03-31 09:08:05'),
+(495, 'book_update', '', 1, '90.131.153.247', 12, 'BookStack\\Book', '2022-03-31 09:09:59', '2022-03-31 09:09:59'),
+(496, 'book_update', '', 1, '90.131.153.247', 11, 'BookStack\\Book', '2022-03-31 09:10:37', '2022-03-31 09:10:37'),
+(497, 'book_update', '', 1, '90.131.153.247', 1, 'BookStack\\Book', '2022-03-31 09:11:13', '2022-03-31 09:11:13'),
+(498, 'settings_update', 'customization', 1, '90.131.153.247', NULL, NULL, '2022-03-31 09:14:04', '2022-03-31 09:14:04'),
+(499, 'settings_update', 'customization', 1, '90.131.153.247', NULL, NULL, '2022-03-31 09:14:36', '2022-03-31 09:14:36'),
+(500, 'book_update', '', 1, '90.131.153.247', 2, 'BookStack\\Book', '2022-03-31 09:15:10', '2022-03-31 09:15:10'),
+(501, 'book_update', '', 1, '90.131.153.247', 2, 'BookStack\\Book', '2022-03-31 09:15:35', '2022-03-31 09:15:35'),
+(502, 'book_update', '', 1, '90.131.153.247', 3, 'BookStack\\Book', '2022-03-31 09:16:05', '2022-03-31 09:16:05'),
+(503, 'book_update', '', 1, '90.131.153.247', 3, 'BookStack\\Book', '2022-03-31 09:16:23', '2022-03-31 09:16:23'),
+(504, 'book_update', '', 1, '90.131.153.247', 3, 'BookStack\\Book', '2022-03-31 09:16:48', '2022-03-31 09:16:48'),
+(505, 'book_update', '', 1, '90.131.153.247', 3, 'BookStack\\Book', '2022-03-31 09:17:20', '2022-03-31 09:17:20'),
+(506, 'settings_update', 'customization', 1, '90.131.153.247', NULL, NULL, '2022-03-31 09:17:50', '2022-03-31 09:17:50'),
+(507, 'settings_update', 'registration', 1, '90.131.153.247', NULL, NULL, '2022-03-31 09:18:29', '2022-03-31 09:18:29'),
+(508, 'settings_update', 'customization', 1, '90.131.153.247', NULL, NULL, '2022-03-31 09:18:42', '2022-03-31 09:18:42'),
+(509, 'book_update', '', 1, '90.131.153.247', 7, 'BookStack\\Book', '2022-03-31 09:19:09', '2022-03-31 09:19:09'),
+(510, 'book_update', '', 1, '90.131.153.247', 7, 'BookStack\\Book', '2022-03-31 09:19:52', '2022-03-31 09:19:52'),
+(511, 'book_update', '', 1, '90.131.153.247', 7, 'BookStack\\Book', '2022-03-31 09:20:09', '2022-03-31 09:20:09'),
+(512, 'book_update', '', 1, '90.131.153.247', 7, 'BookStack\\Book', '2022-03-31 09:20:17', '2022-03-31 09:20:17'),
+(513, 'book_update', '', 1, '90.131.153.247', 7, 'BookStack\\Book', '2022-03-31 09:20:23', '2022-03-31 09:20:23'),
+(514, 'book_update', '', 1, '90.131.153.247', 7, 'BookStack\\Book', '2022-03-31 09:20:30', '2022-03-31 09:20:30'),
+(515, 'book_update', '', 1, '90.131.153.247', 10, 'BookStack\\Book', '2022-03-31 09:21:08', '2022-03-31 09:21:08'),
+(516, 'book_update', '', 1, '90.131.153.247', 10, 'BookStack\\Book', '2022-03-31 09:21:36', '2022-03-31 09:21:36'),
+(517, 'book_update', '', 1, '90.131.153.247', 10, 'BookStack\\Book', '2022-03-31 09:22:37', '2022-03-31 09:22:37'),
+(518, 'book_update', '', 1, '90.131.153.247', 10, 'BookStack\\Book', '2022-03-31 09:23:03', '2022-03-31 09:23:03'),
+(519, 'book_update', '', 1, '90.131.153.247', 10, 'BookStack\\Book', '2022-03-31 09:23:07', '2022-03-31 09:23:07'),
+(520, 'book_update', '', 1, '90.131.153.247', 10, 'BookStack\\Book', '2022-03-31 09:23:14', '2022-03-31 09:23:14'),
+(521, 'book_update', '', 1, '90.131.153.247', 10, 'BookStack\\Book', '2022-03-31 09:23:27', '2022-03-31 09:23:27'),
+(522, 'book_update', '', 1, '90.131.153.247', 13, 'BookStack\\Book', '2022-03-31 09:24:12', '2022-03-31 09:24:12'),
+(523, 'auth_login', 'standard; (1) Admin', 1, '90.131.153.247', NULL, NULL, '2022-03-31 09:29:01', '2022-03-31 09:29:01'),
+(524, 'settings_update', 'customization', 1, '90.131.153.247', NULL, NULL, '2022-03-31 09:31:41', '2022-03-31 09:31:41'),
+(525, 'settings_update', 'customization', 1, '90.131.153.247', NULL, NULL, '2022-03-31 09:32:01', '2022-03-31 09:32:01');
 
 -- --------------------------------------------------------
 
@@ -601,15 +634,15 @@ CREATE TABLE `books` (
 --
 
 INSERT INTO `books` (`id`, `name`, `slug`, `description`, `created_at`, `updated_at`, `created_by`, `updated_by`, `restricted`, `image_id`, `deleted_at`, `owned_by`) VALUES
-(1, 'MySQL', 'mysql', '', '2021-11-27 12:20:23', '2021-11-27 13:53:42', 1, 1, 0, NULL, NULL, 2),
-(2, 'Linux', 'linux', '', '2021-11-27 15:11:54', '2021-11-27 15:11:54', 1, 1, 0, NULL, NULL, 1),
-(3, 'Git', 'git', '', '2021-11-29 14:32:58', '2021-11-29 14:32:58', 1, 1, 0, NULL, NULL, 1),
+(1, 'MySQL', 'mysql', '', '2021-11-27 12:20:23', '2022-03-31 09:11:13', 1, 1, 0, 52, NULL, 2),
+(2, 'Linux', 'linux', '', '2021-11-27 15:11:54', '2022-03-31 09:15:35', 1, 1, 0, 54, NULL, 1),
+(3, 'Git', 'git', '', '2021-11-29 14:32:58', '2022-03-31 09:17:21', 1, 1, 0, 58, NULL, 1),
 (6, 'Misc.', 'misc', '', '2021-12-11 19:48:42', '2022-02-10 10:24:12', 1, 1, 1, NULL, NULL, 1),
-(7, 'Docker', 'docker', '', '2021-12-14 17:58:00', '2021-12-14 17:58:00', 1, 1, 0, NULL, NULL, 1),
-(10, 'Javascript', 'javascript', '', '2021-12-21 11:38:19', '2021-12-21 11:38:19', 1, 1, 0, NULL, NULL, 1),
-(11, 'Webpack', 'webpack', '', '2021-12-23 08:50:33', '2021-12-23 08:50:33', 1, 1, 0, NULL, NULL, 1),
-(12, 'PHP', 'php', '', '2022-01-03 15:38:58', '2022-01-03 15:38:58', 1, 1, 0, NULL, NULL, 1),
-(13, 'Servers', 'servers', '', '2022-03-22 14:07:42', '2022-03-22 14:07:42', 1, 1, 0, NULL, NULL, 1);
+(7, 'Docker', 'docker', '', '2021-12-14 17:58:00', '2022-03-31 09:20:30', 1, 1, 0, 63, NULL, 1),
+(10, 'Javascript', 'javascript', '', '2021-12-21 11:38:19', '2022-03-31 09:23:27', 1, 1, 0, 69, NULL, 1),
+(11, 'Webpack', 'webpack', '', '2021-12-23 08:50:33', '2022-03-31 09:10:37', 1, 1, 0, 51, NULL, 1),
+(12, 'PHP', 'php', '', '2022-01-03 15:38:58', '2022-03-31 09:09:59', 1, 1, 0, 50, NULL, 1),
+(13, 'Servers', 'servers', '', '2022-03-22 14:07:42', '2022-03-31 09:24:12', 1, 1, 0, 70, NULL, 1);
 
 -- --------------------------------------------------------
 
@@ -868,7 +901,16 @@ INSERT INTO `images` (`id`, `name`, `url`, `created_at`, `updated_at`, `created_
 (46, 'image-1647966530055.png', 'https://wiki.lazda.io/uploads/images/gallery/2022-03/image-1647966530055.png', '2022-03-22 16:28:50', '2022-03-22 16:28:50', 1, 1, '/uploads/images/gallery/2022-03/image-1647966530055.png', 'gallery', 63),
 (47, 'image-1647966575255.png', 'https://wiki.lazda.io/uploads/images/gallery/2022-03/image-1647966575255.png', '2022-03-22 16:29:35', '2022-03-22 16:29:35', 1, 1, '/uploads/images/gallery/2022-03/image-1647966575255.png', 'gallery', 63),
 (48, 'image-1647967309563.png', 'https://wiki.lazda.io/uploads/images/gallery/2022-03/image-1647967309563.png', '2022-03-22 16:41:49', '2022-03-22 16:41:49', 1, 1, '/uploads/images/gallery/2022-03/image-1647967309563.png', 'gallery', 64),
-(49, 'image-1647967953497.png', 'https://wiki.lazda.io/uploads/images/gallery/2022-03/image-1647967953497.png', '2022-03-22 16:52:33', '2022-03-22 16:52:33', 1, 1, '/uploads/images/gallery/2022-03/image-1647967953497.png', 'gallery', 65);
+(49, 'image-1647967953497.png', 'https://wiki.lazda.io/uploads/images/gallery/2022-03/image-1647967953497.png', '2022-03-22 16:52:33', '2022-03-22 16:52:33', 1, 1, '/uploads/images/gallery/2022-03/image-1647967953497.png', 'gallery', 65),
+(50, 'php.jpeg', 'https://wiki.lazda.io/uploads/images/cover_book/2022-03/php.jpeg', '2022-03-31 09:09:59', '2022-03-31 09:09:59', 1, 1, '/uploads/images/cover_book/2022-03/php.jpeg', 'cover_book', 12),
+(51, 'webpack.webp', 'https://wiki.lazda.io/uploads/images/cover_book/2022-03/webpack.webp', '2022-03-31 09:10:37', '2022-03-31 09:10:37', 1, 1, '/uploads/images/cover_book/2022-03/webpack.webp', 'cover_book', 11),
+(52, 'mysql.png', 'https://wiki.lazda.io/uploads/images/cover_book/2022-03/mysql.png', '2022-03-31 09:11:13', '2022-03-31 09:11:13', 1, 1, '/uploads/images/cover_book/2022-03/mysql.png', 'cover_book', 1),
+(54, 'linux.webp', 'https://wiki.lazda.io/uploads/images/cover_book/2022-03/linux.webp', '2022-03-31 09:15:35', '2022-03-31 09:15:35', 1, 1, '/uploads/images/cover_book/2022-03/linux.webp', 'cover_book', 2),
+(58, 'gits.png', 'https://wiki.lazda.io/uploads/images/cover_book/2022-03/gits.png', '2022-03-31 09:17:20', '2022-03-31 09:17:20', 1, 1, '/uploads/images/cover_book/2022-03/gits.png', 'cover_book', 3),
+(63, 'dockers.png', 'https://wiki.lazda.io/uploads/images/cover_book/2022-03/dockers.png', '2022-03-31 09:20:30', '2022-03-31 09:20:30', 1, 1, '/uploads/images/cover_book/2022-03/dockers.png', 'cover_book', 7),
+(69, 'jss.png', 'https://wiki.lazda.io/uploads/images/cover_book/2022-03/jss.png', '2022-03-31 09:23:27', '2022-03-31 09:23:27', 1, 1, '/uploads/images/cover_book/2022-03/jss.png', 'cover_book', 10),
+(70, 'server.jpeg', 'https://wiki.lazda.io/uploads/images/cover_book/2022-03/server.jpeg', '2022-03-31 09:24:12', '2022-03-31 09:24:12', 1, 1, '/uploads/images/cover_book/2022-03/server.jpeg', 'cover_book', 13),
+(71, 'globa.jpeg', 'https://wiki.lazda.io/uploads/images/system/2022-03/globa.jpeg', '2022-03-31 09:31:41', '2022-03-31 09:31:41', 1, 1, '/uploads/images/system/2022-03/globa.jpeg', 'system', 0);
 
 -- --------------------------------------------------------
 
@@ -2508,7 +2550,6 @@ CREATE TABLE `search_terms` (
 INSERT INTO `search_terms` (`id`, `term`, `entity_type`, `entity_id`, `score`) VALUES
 (1, 'Software', 'BookStack\\Bookshelf', 1, 48),
 (2, 'Development', 'BookStack\\Bookshelf', 1, 48),
-(3, 'MySQL', 'BookStack\\Book', 1, 48),
 (2213, 'Indexes', 'BookStack\\Page', 3, 44),
 (2214, 'Index', 'BookStack\\Page', 3, 5),
 (2215, 'Types', 'BookStack\\Page', 3, 5),
@@ -3122,7 +3163,6 @@ INSERT INTO `search_terms` (`id`, `term`, `entity_type`, `entity_id`, `score`) V
 (3036, ' Thompson', 'BookStack\\Page', 4, 1),
 (3037, '%', 'BookStack\\Page', 4, 1),
 (3038, '%on', 'BookStack\\Page', 4, 1),
-(3278, 'Linux', 'BookStack\\Book', 2, 48),
 (3279, 'Joins', 'BookStack\\Page', 1, 40),
 (3280, 'JOIN', 'BookStack\\Page', 1, 10),
 (3281, 'types', 'BookStack\\Page', 1, 4),
@@ -3729,10 +3769,10 @@ INSERT INTO `search_terms` (`id`, `term`, `entity_type`, `entity_id`, `score`) V
 (4954, 'mount', 'BookStack\\Page', 11, 8),
 (4955, 'One', 'BookStack\\Page', 11, 1),
 (4956, 'key', 'BookStack\\Page', 11, 1),
-(4957, 'differences', 'BookStack\\Page', 11, 1);
-INSERT INTO `search_terms` (`id`, `term`, `entity_type`, `entity_id`, `score`) VALUES
+(4957, 'differences', 'BookStack\\Page', 11, 1),
 (4958, 'between', 'BookStack\\Page', 11, 1),
-(4959, 'Linux', 'BookStack\\Page', 11, 3),
+(4959, 'Linux', 'BookStack\\Page', 11, 3);
+INSERT INTO `search_terms` (`id`, `term`, `entity_type`, `entity_id`, `score`) VALUES
 (4960, 'operating', 'BookStack\\Page', 11, 1),
 (4961, 'systems', 'BookStack\\Page', 11, 3),
 (4962, 'you', 'BookStack\\Page', 11, 3),
@@ -3972,7 +4012,6 @@ INSERT INTO `search_terms` (`id`, `term`, `entity_type`, `entity_id`, `score`) V
 (5494, 'freely', 'BookStack\\Page', 12, 1),
 (5495, 'without', 'BookStack\\Page', 12, 1),
 (5496, 'consequence', 'BookStack\\Page', 12, 1),
-(6114, 'Git', 'BookStack\\Book', 3, 48),
 (6919, 'Contributing', 'BookStack\\Page', 16, 40),
 (6920, 'to', 'BookStack\\Page', 16, 57),
 (6921, 'Open', 'BookStack\\Page', 16, 44),
@@ -4728,7 +4767,6 @@ INSERT INTO `search_terms` (`id`, `term`, `entity_type`, `entity_id`, `score`) V
 (16674, 'that', 'BookStack\\Page', 27, 1),
 (16675, 'follow', 'BookStack\\Page', 27, 1),
 (16676, 'characters', 'BookStack\\Page', 27, 1),
-(16677, 'Docker', 'BookStack\\Book', 7, 48),
 (20196, 'Volumes', 'BookStack\\Page', 31, 50),
 (20197, 'Docker', 'BookStack\\Page', 31, 8),
 (20198, 'has', 'BookStack\\Page', 31, 3),
@@ -4918,11 +4956,11 @@ INSERT INTO `search_terms` (`id`, `term`, `entity_type`, `entity_id`, `score`) V
 (20382, 'volume’s', 'BookStack\\Page', 31, 1),
 (20383, 'contents', 'BookStack\\Page', 31, 1),
 (20384, 'outside', 'BookStack\\Page', 31, 1),
-(20385, 'lifecycle', 'BookStack\\Page', 31, 1);
-INSERT INTO `search_terms` (`id`, `term`, `entity_type`, `entity_id`, `score`) VALUES
+(20385, 'lifecycle', 'BookStack\\Page', 31, 1),
 (20386, 'given', 'BookStack\\Page', 31, 1),
 (21062, 'Networks', 'BookStack\\Page', 34, 41),
-(21063, 'Docker', 'BookStack\\Page', 34, 4),
+(21063, 'Docker', 'BookStack\\Page', 34, 4);
+INSERT INTO `search_terms` (`id`, `term`, `entity_type`, `entity_id`, `score`) VALUES
 (21064, 'takes', 'BookStack\\Page', 34, 1),
 (21065, 'care', 'BookStack\\Page', 34, 1),
 (21066, 'of', 'BookStack\\Page', 34, 1),
@@ -5772,8 +5810,6 @@ INSERT INTO `search_terms` (`id`, `term`, `entity_type`, `entity_id`, `score`) V
 (26954, 'scale\r', 'BookStack\\Page', 29, 1),
 (26955, 'Scale', 'BookStack\\Page', 29, 1),
 (26956, 'replicated', 'BookStack\\Page', 29, 1),
-(27171, 'Javascript', 'BookStack\\Book', 10, 48),
-(28588, 'Webpack', 'BookStack\\Book', 11, 48),
 (31447, 'Configuration', 'BookStack\\Page', 43, 40),
 (31448, 'Webpack', 'BookStack\\Page', 43, 1),
 (31449, 'is', 'BookStack\\Page', 43, 4),
@@ -6080,13 +6116,13 @@ INSERT INTO `search_terms` (`id`, `term`, `entity_type`, `entity_id`, `score`) V
 (33826, 'MYSQL_ROOT_PASSWORD', 'BookStack\\Page', 33, 1),
 (33827, 'app', 'BookStack\\Page', 33, 1),
 (33828, 'driver', 'BookStack\\Page', 33, 1),
-(33829, 'bridge\r', 'BookStack\\Page', 33, 1);
-INSERT INTO `search_terms` (`id`, `term`, `entity_type`, `entity_id`, `score`) VALUES
+(33829, 'bridge\r', 'BookStack\\Page', 33, 1),
 (34146, 'Loaders', 'BookStack\\Page', 44, 40),
 (34147, 'The', 'BookStack\\Page', 44, 5),
 (34148, 'loader', 'BookStack\\Page', 44, 8),
 (34149, 'is', 'BookStack\\Page', 44, 7),
-(34150, 'responsible', 'BookStack\\Page', 44, 1),
+(34150, 'responsible', 'BookStack\\Page', 44, 1);
+INSERT INTO `search_terms` (`id`, `term`, `entity_type`, `entity_id`, `score`) VALUES
 (34151, 'for', 'BookStack\\Page', 44, 6),
 (34152, 'parsing/processing', 'BookStack\\Page', 44, 1),
 (34153, 'the', 'BookStack\\Page', 44, 17),
@@ -6858,7 +6894,6 @@ INSERT INTO `search_terms` (`id`, `term`, `entity_type`, `entity_id`, `score`) V
 (37544, 'houses', 'BookStack\\Page', 49, 1),
 (37545, 'belong', 'BookStack\\Page', 49, 1),
 (37546, ' ', 'BookStack\\Page', 49, 1),
-(37547, 'PHP', 'BookStack\\Book', 12, 48),
 (37746, 'References', 'BookStack\\Page', 51, 40),
 (37747, 'PHP', 'BookStack\\Page', 51, 2),
 (37748, 'reference', 'BookStack\\Page', 51, 3),
@@ -7238,14 +7273,14 @@ INSERT INTO `search_terms` (`id`, `term`, `entity_type`, `entity_id`, `score`) V
 (40444, 'log', 'BookStack\\Page', 56, 11),
 (40445, 'Calling', 'BookStack\\Page', 56, 2),
 (40446, 'Callback', 'BookStack\\Page', 56, 2),
-(40447, 'called', 'BookStack\\Page', 56, 2);
-INSERT INTO `search_terms` (`id`, `term`, `entity_type`, `entity_id`, `score`) VALUES
+(40447, 'called', 'BookStack\\Page', 56, 2),
 (40448, 'consoleMyDetails', 'BookStack\\Page', 56, 2),
 (40449, 'person', 'BookStack\\Page', 56, 5),
 (40450, 'if', 'BookStack\\Page', 56, 4),
 (40451, 'Hi', 'BookStack\\Page', 56, 2),
 (40452, 'my', 'BookStack\\Page', 56, 2),
-(40453, 'name', 'BookStack\\Page', 56, 4),
+(40453, 'name', 'BookStack\\Page', 56, 4);
+INSERT INTO `search_terms` (`id`, `term`, `entity_type`, `entity_id`, `score`) VALUES
 (40454, '$', 'BookStack\\Page', 56, 5),
 (40455, 'i', 'BookStack\\Page', 56, 2),
 (40456, 'am', 'BookStack\\Page', 56, 2),
@@ -8101,7 +8136,6 @@ INSERT INTO `search_terms` (`id`, `term`, `entity_type`, `entity_id`, `score`) V
 (43182, 'default', 'BookStack\\Page', 61, 1),
 (43183, 'connection', 'BookStack\\Page', 61, 1),
 (43184, 'configuration', 'BookStack\\Page', 61, 1),
-(43185, 'Servers', 'BookStack\\Book', 13, 48),
 (43343, 'TCP', 'BookStack\\Page', 63, 43),
 (43344, 'Connection', 'BookStack\\Page', 63, 40),
 (43345, 'Open', 'BookStack\\Page', 63, 1),
@@ -8413,15 +8447,15 @@ INSERT INTO `search_terms` (`id`, `term`, `entity_type`, `entity_id`, `score`) V
 (43726, 'times', 'BookStack\\Page', 64, 1),
 (43727, 'faster', 'BookStack\\Page', 64, 1),
 (43728, 'than', 'BookStack\\Page', 64, 1),
-(44184, 'PHP', 'BookStack\\Page', 65, 45);
-INSERT INTO `search_terms` (`id`, `term`, `entity_type`, `entity_id`, `score`) VALUES
+(44184, 'PHP', 'BookStack\\Page', 65, 45),
 (44185, 'Server', 'BookStack\\Page', 65, 40),
 (44186, 'is', 'BookStack\\Page', 65, 16),
 (44187, 'a', 'BookStack\\Page', 65, 14),
 (44188, 'server-side', 'BookStack\\Page', 65, 1),
 (44189, 'language', 'BookStack\\Page', 65, 2),
 (44190, 'that', 'BookStack\\Page', 65, 14),
-(44191, 'outputs', 'BookStack\\Page', 65, 1),
+(44191, 'outputs', 'BookStack\\Page', 65, 1);
+INSERT INTO `search_terms` (`id`, `term`, `entity_type`, `entity_id`, `score`) VALUES
 (44192, 'usually', 'BookStack\\Page', 65, 1),
 (44193, 'HTML', 'BookStack\\Page', 65, 1),
 (44194, 'results', 'BookStack\\Page', 65, 1),
@@ -8780,7 +8814,15 @@ INSERT INTO `search_terms` (`id`, `term`, `entity_type`, `entity_id`, `score`) V
 (44553, 'Natural', 'BookStack\\Page', 26, 1),
 (44554, 'Text', 'BookStack\\Page', 26, 1),
 (44555, 'Editing', 'BookStack\\Page', 26, 1),
-(44556, 'zsh-autosuggestions', 'BookStack\\Page', 26, 1);
+(44556, 'zsh-autosuggestions', 'BookStack\\Page', 26, 1),
+(44557, 'PHP', 'BookStack\\Book', 12, 48),
+(44558, 'Webpack', 'BookStack\\Book', 11, 48),
+(44559, 'MySQL', 'BookStack\\Book', 1, 48),
+(44561, 'Linux', 'BookStack\\Book', 2, 48),
+(44565, 'Git', 'BookStack\\Book', 3, 48),
+(44571, 'Docker', 'BookStack\\Book', 7, 48),
+(44578, 'Javascript', 'BookStack\\Book', 10, 48),
+(44579, 'Servers', 'BookStack\\Book', 13, 48);
 
 -- --------------------------------------------------------
 
@@ -8816,24 +8858,28 @@ CREATE TABLE `settings` (
 --
 
 INSERT INTO `settings` (`setting_key`, `value`, `created_at`, `updated_at`, `type`) VALUES
-('app-color', '#a36a00', '2021-11-27 14:27:14', '2021-12-06 11:47:47', 'string'),
-('app-color-light', 'rgba(163,106,0,0.15)', '2021-11-27 14:27:14', '2021-12-06 11:47:47', 'string'),
+('app-color', '#000071', '2021-11-27 14:27:14', '2022-03-31 09:14:04', 'string'),
+('app-color-light', 'rgba(0,0,113,0.15)', '2021-11-27 14:27:14', '2022-03-31 09:14:04', 'string'),
 ('app-custom-head', '', '2021-11-27 14:27:14', '2021-11-27 14:27:14', 'string'),
 ('app-disable-comments', 'true', '2021-11-27 13:55:03', '2021-11-27 13:55:03', 'string'),
 ('app-editor', 'wysiwyg', '2021-11-27 14:27:14', '2021-11-27 14:27:14', 'string'),
 ('app-footer-links', '[]', '2021-11-27 14:27:14', '2021-11-27 14:27:14', 'array'),
 ('app-homepage', '', '2021-11-27 14:27:14', '2021-11-27 14:27:14', 'string'),
 ('app-homepage-type', 'default', '2021-11-27 14:27:14', '2021-11-27 14:27:14', 'string'),
-('app-logo', 'none', '2021-11-27 14:27:14', '2021-11-27 14:27:14', 'string'),
+('app-logo', 'none', '2021-11-27 14:27:14', '2022-03-31 09:32:01', 'string'),
 ('app-name', 'Personal Knowledge Base', '2021-11-27 14:27:14', '2021-11-28 16:16:50', 'string'),
 ('app-name-header', 'false', '2021-11-27 14:27:14', '2021-11-28 16:19:15', 'string'),
 ('app-public', 'true', '2021-11-27 13:55:03', '2021-11-27 13:55:03', 'string'),
 ('app-secure-images', 'false', '2021-11-27 13:55:03', '2021-11-27 13:55:03', 'string'),
-('book-color', '#a36a00', '2021-11-27 14:27:14', '2021-12-06 11:48:10', 'string'),
-('bookshelf-color', '#a36a00', '2021-11-27 14:27:14', '2021-12-06 11:48:10', 'string'),
-('chapter-color', '#f79e02', '2021-11-27 14:27:14', '2021-11-28 16:02:45', 'string'),
-('page-color', '#f79e02', '2021-11-27 14:27:14', '2021-11-28 16:02:45', 'string'),
-('page-draft-color', '#f79e02', '2021-11-27 14:27:14', '2021-11-28 16:02:45', 'string'),
+('book-color', '#000071', '2021-11-27 14:27:14', '2022-03-31 09:18:42', 'string'),
+('bookshelf-color', '#000071', '2021-11-27 14:27:14', '2022-03-31 09:14:04', 'string'),
+('chapter-color', '#000071', '2021-11-27 14:27:14', '2022-03-31 09:14:36', 'string'),
+('page-color', '#000071', '2021-11-27 14:27:14', '2022-03-31 09:14:36', 'string'),
+('page-draft-color', '#000072', '2021-11-27 14:27:14', '2022-03-31 09:14:36', 'string'),
+('registration-confirmation', 'false', '2022-03-31 09:18:29', '2022-03-31 09:18:29', 'string'),
+('registration-enabled', 'false', '2022-03-31 09:18:29', '2022-03-31 09:18:29', 'string'),
+('registration-restrict', '', '2022-03-31 09:18:29', '2022-03-31 09:18:29', 'string'),
+('registration-role', '1', '2022-03-31 09:18:29', '2022-03-31 09:18:29', 'string'),
 ('user:1:books_sort', 'name', '2021-11-27 13:52:16', '2021-11-27 13:52:16', 'string'),
 ('user:1:books_sort_order', 'desc', '2021-11-27 13:52:16', '2021-11-27 13:52:17', 'string'),
 ('user:1:dark-mode-enabled', 'false', '2021-11-27 14:43:57', '2022-03-11 10:22:42', 'string'),
@@ -8937,13 +8983,13 @@ CREATE TABLE `views` (
 --
 
 INSERT INTO `views` (`id`, `user_id`, `viewable_id`, `viewable_type`, `views`, `created_at`, `updated_at`) VALUES
-(1, 1, 1, 'BookStack\\Bookshelf', 24, '2021-11-27 12:20:14', '2021-11-27 18:06:22'),
-(2, 1, 1, 'BookStack\\Book', 187, '2021-11-27 12:20:23', '2022-03-18 13:55:47'),
-(3, 1, 1, 'BookStack\\Page', 55, '2021-11-27 12:22:14', '2021-12-23 21:13:50'),
+(1, 1, 1, 'BookStack\\Bookshelf', 26, '2021-11-27 12:20:14', '2022-03-31 09:11:50'),
+(2, 1, 1, 'BookStack\\Book', 193, '2021-11-27 12:20:23', '2022-03-31 09:14:15'),
+(3, 1, 1, 'BookStack\\Page', 56, '2021-11-27 12:22:14', '2022-03-31 09:14:14'),
 (4, 1, 2, 'BookStack\\Page', 22, '2021-11-27 12:27:57', '2021-12-27 15:44:38'),
 (5, 1, 3, 'BookStack\\Page', 28, '2021-11-27 12:30:50', '2021-12-27 15:44:36'),
 (6, 1, 4, 'BookStack\\Page', 10, '2021-11-27 13:28:57', '2021-12-09 16:51:09'),
-(8, 1, 2, 'BookStack\\Book', 114, '2021-11-27 15:11:54', '2022-03-22 17:07:33'),
+(8, 1, 2, 'BookStack\\Book', 119, '2021-11-27 15:11:54', '2022-03-31 09:15:35'),
 (9, 1, 6, 'BookStack\\Page', 13, '2021-11-27 18:19:20', '2022-03-17 08:12:29'),
 (10, 1, 7, 'BookStack\\Page', 13, '2021-11-27 18:19:41', '2021-12-09 16:50:56'),
 (11, 1, 8, 'BookStack\\Page', 1, '2021-11-27 18:28:41', '2021-11-27 18:28:41'),
@@ -8952,7 +8998,7 @@ INSERT INTO `views` (`id`, `user_id`, `viewable_id`, `viewable_type`, `views`, `
 (14, 1, 11, 'BookStack\\Page', 3, '2021-11-27 18:31:44', '2021-11-27 18:41:30'),
 (15, 1, 12, 'BookStack\\Page', 4, '2021-11-27 18:44:19', '2021-12-23 21:18:01'),
 (16, 1, 13, 'BookStack\\Page', 31, '2021-11-27 18:51:27', '2022-03-17 08:14:14'),
-(17, 1, 3, 'BookStack\\Book', 148, '2021-11-29 14:32:58', '2021-12-23 21:15:17'),
+(17, 1, 3, 'BookStack\\Book', 157, '2021-11-29 14:32:58', '2022-03-31 09:17:21'),
 (18, 1, 15, 'BookStack\\Page', 41, '2021-11-29 15:23:46', '2021-12-23 21:15:13'),
 (19, 1, 16, 'BookStack\\Page', 14, '2021-11-30 09:15:44', '2021-12-19 17:54:36'),
 (23, 1, 20, 'BookStack\\Page', 49, '2021-12-08 13:50:14', '2021-12-21 13:18:45'),
@@ -8962,7 +9008,7 @@ INSERT INTO `views` (`id`, `user_id`, `viewable_id`, `viewable_type`, `views`, `
 (31, 1, 6, 'BookStack\\Book', 84, '2021-12-11 19:48:43', '2022-03-22 20:45:57'),
 (32, 1, 26, 'BookStack\\Page', 25, '2021-12-11 20:01:20', '2022-03-22 20:46:34'),
 (33, 1, 27, 'BookStack\\Page', 45, '2021-12-13 19:06:38', '2021-12-23 21:18:03'),
-(34, 1, 7, 'BookStack\\Book', 101, '2021-12-14 17:58:00', '2021-12-30 10:22:15'),
+(34, 1, 7, 'BookStack\\Book', 113, '2021-12-14 17:58:00', '2022-03-31 09:20:30'),
 (35, 1, 29, 'BookStack\\Page', 52, '2021-12-14 18:16:15', '2021-12-30 10:22:13'),
 (36, 1, 30, 'BookStack\\Page', 14, '2021-12-14 18:25:56', '2022-01-04 12:10:53'),
 (37, 1, 31, 'BookStack\\Page', 25, '2021-12-14 18:31:40', '2021-12-30 10:22:03'),
@@ -8970,8 +9016,8 @@ INSERT INTO `views` (`id`, `user_id`, `viewable_id`, `viewable_type`, `views`, `
 (40, 1, 34, 'BookStack\\Page', 18, '2021-12-18 12:28:53', '2021-12-30 10:22:05'),
 (42, 1, 37, 'BookStack\\Page', 5, '2021-12-19 18:08:48', '2021-12-21 13:12:48'),
 (47, 1, 40, 'BookStack\\Page', 28, '2021-12-20 15:09:09', '2022-03-22 19:47:00'),
-(48, 1, 10, 'BookStack\\Book', 60, '2021-12-21 11:38:19', '2022-03-17 08:02:23'),
-(50, 1, 11, 'BookStack\\Book', 54, '2021-12-23 08:50:33', '2022-03-17 08:02:24'),
+(48, 1, 10, 'BookStack\\Book', 70, '2021-12-21 11:38:19', '2022-03-31 09:23:27'),
+(50, 1, 11, 'BookStack\\Book', 56, '2021-12-23 08:50:33', '2022-03-31 09:10:37'),
 (51, 1, 43, 'BookStack\\Page', 20, '2021-12-23 10:33:26', '2021-12-23 21:48:00'),
 (52, 1, 44, 'BookStack\\Page', 39, '2021-12-23 10:44:09', '2021-12-29 09:45:47'),
 (55, 1, 1, 'BookStack\\Chapter', 16, '2022-01-03 14:25:21', '2022-01-10 13:45:17'),
@@ -8979,7 +9025,7 @@ INSERT INTO `views` (`id`, `user_id`, `viewable_id`, `viewable_type`, `views`, `
 (57, 1, 47, 'BookStack\\Page', 7, '2022-01-03 14:26:15', '2022-01-10 12:04:40'),
 (59, 1, 49, 'BookStack\\Page', 4, '2022-01-03 14:36:06', '2022-01-10 13:45:17'),
 (60, 1, 50, 'BookStack\\Page', 5, '2022-01-03 14:37:08', '2022-01-10 13:45:10'),
-(61, 1, 12, 'BookStack\\Book', 19, '2022-01-03 15:38:59', '2022-03-22 20:03:37'),
+(61, 1, 12, 'BookStack\\Book', 21, '2022-01-03 15:38:59', '2022-03-31 09:09:59'),
 (62, 1, 51, 'BookStack\\Page', 4, '2022-01-03 15:40:52', '2022-01-10 13:39:59'),
 (63, 1, 52, 'BookStack\\Page', 4, '2022-01-04 11:38:02', '2022-01-10 13:39:53'),
 (64, 1, 53, 'BookStack\\Page', 4, '2022-01-04 11:46:17', '2022-01-10 13:39:51'),
@@ -8990,7 +9036,7 @@ INSERT INTO `views` (`id`, `user_id`, `viewable_id`, `viewable_type`, `views`, `
 (69, 1, 59, 'BookStack\\Page', 1, '2022-01-10 16:03:01', '2022-01-10 16:03:01'),
 (70, 1, 60, 'BookStack\\Page', 2, '2022-03-11 10:14:01', '2022-03-22 20:45:56'),
 (71, 1, 61, 'BookStack\\Page', 12, '2022-03-17 08:01:50', '2022-03-18 13:55:28'),
-(72, 1, 13, 'BookStack\\Book', 30, '2022-03-22 14:07:42', '2022-03-22 20:03:41'),
+(72, 1, 13, 'BookStack\\Book', 32, '2022-03-22 14:07:42', '2022-03-31 09:24:12'),
 (73, 1, 62, 'BookStack\\Page', 12, '2022-03-22 14:07:49', '2022-03-22 20:02:42'),
 (74, 1, 63, 'BookStack\\Page', 9, '2022-03-22 16:22:28', '2022-03-22 20:02:40'),
 (75, 1, 64, 'BookStack\\Page', 11, '2022-03-22 16:36:21', '2022-03-22 20:03:08'),
@@ -9290,7 +9336,7 @@ ALTER TABLE `views`
 -- AUTO_INCREMENT for table `activities`
 --
 ALTER TABLE `activities`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=493;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=526;
 
 --
 -- AUTO_INCREMENT for table `api_tokens`
@@ -9356,7 +9402,7 @@ ALTER TABLE `favourites`
 -- AUTO_INCREMENT for table `images`
 --
 ALTER TABLE `images`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=50;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=72;
 
 --
 -- AUTO_INCREMENT for table `mfa_values`
@@ -9398,7 +9444,7 @@ ALTER TABLE `role_permissions`
 -- AUTO_INCREMENT for table `search_terms`
 --
 ALTER TABLE `search_terms`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44557;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44580;
 
 --
 -- AUTO_INCREMENT for table `social_accounts`
